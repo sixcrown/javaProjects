@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Collection</servlet-name>
+        <servlet-class>servlets.Collection</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CalculationsServ</servlet-name>
+        <servlet-class>servlets.CalculationsServ</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Cookies</servlet-name>
+        <servlet-class>servlets.Cookies</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Collection</servlet-name>
+        <url-pattern>/Collection</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CalculationsServ</servlet-name>
+        <url-pattern>/CalculationsServ</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Cookies</servlet-name>
+        <url-pattern>/Cookies</url-pattern>
+    </servlet-mapping>
+</web-app>
